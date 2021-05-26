@@ -6,12 +6,9 @@ class Conjured extends Item {
     this.type = type;
     this.loseQuality();
     this.loseSellin();
-    this.checkFiveDays();
     this.checkNegativeQuality();
     this.checkPeremptionDate();
     this.overFifty();
-    this.checkTenDays();
-    this.checkZeroDays();
   }
 
   loseQuality() {
